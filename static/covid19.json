@@ -3,7 +3,7 @@
         "country": "India",
         "confirmed": 921,
         "recovered": 80,
-        "deaths": 19,
+        "deaths": 20,
         "cities": [
             {
                 "name": "MAHARASHTRA",
