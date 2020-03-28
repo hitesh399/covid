@@ -1,0 +1,1015 @@
+[
+    {
+        "country": "India",
+        "confirmed": 918,
+        "recovered": 80,
+        "deaths": 19,
+        "cities": [
+            {
+                "name": "MAHARASHTRA",
+                "confirmed": 180,
+                "deaths": 5
+            },
+            {
+                "name": "KERALA",
+                "confirmed": 176,
+                "deaths": 0
+            },
+            {
+                "name": "TELANGANA",
+                "confirmed": 56,
+                "deaths": 0
+            },
+            {
+                "name": "UP",
+                "confirmed": 55,
+                "deaths": 0
+            },
+            {
+                "name": "KARNATAKA",
+                "confirmed": 55,
+                "deaths": 2
+            },
+            {
+                "name": "RAJASTHAN",
+                "confirmed": 54,
+                "deaths": 0
+            },
+            {
+                "name": "GUJRAT",
+                "confirmed": 45,
+                "deaths": 3
+            },
+            {
+                "name": "TAMIL NADU",
+                "confirmed": 40,
+                "deaths": 1
+            },
+            {
+                "name": "DELHI",
+                "confirmed": 39,
+                "deaths": 1
+            },
+            {
+                "name": "PUNJUB",
+                "confirmed": 38,
+                "deaths": 1
+            },
+            {
+                "name": "HARYANA",
+                "confirmed": 33,
+                "deaths": 0
+            },
+            {
+                "name": "MADHYA PRADESH",
+                "confirmed": 30,
+                "deaths": 2
+            },
+            {
+                "name": "J&K",
+                "confirmed": 20,
+                "deaths": 1
+            },
+            {
+                "name": "WEST BENGAL",
+                "confirmed": 15,
+                "deaths": 1
+            },
+            {
+                "name": "ANDHRA PRADESH",
+                "confirmed": 14,
+                "deaths": 0
+            },
+            {
+                "name": "KLADAKH",
+                "confirmed": 13,
+                "deaths": 0
+            },
+            {
+                "name": "BIHAR",
+                "confirmed": 9,
+                "deaths": 1
+            },
+            {
+                "name": "CHANDIGARH",
+                "confirmed": 8,
+                "deaths": 0
+            },
+            {
+                "name": "CHHATTISGARH",
+                "confirmed": 6,
+                "deaths": 0
+            },
+            {
+                "name": "ANDAMAN & NICOBAR ISLANDS",
+                "confirmed": 6,
+                "deaths": 0
+            },
+            {
+                "name": "UTTARAKHAND",
+                "confirmed": 5,
+                "deaths": 0
+            },
+            {
+                "name": "ODISHA",
+                "confirmed": 3,
+                "deaths": 0
+            },
+            {
+                "name": "HIMACHAL PRADESH",
+                "confirmed": 3,
+                "deaths": 1
+            },
+            {
+                "name": "GOA",
+                "confirmed": 3,
+                "deaths": 0
+            },
+            {
+                "name": "PUDUCHERRY",
+                "confirmed": 1,
+                "deaths": 0
+            }
+        ]
+    },
+    {
+        "country": "UNITED STATES",
+        "confirmed": 101657,
+        "deaths": 1581
+    },
+    {
+        "country": "ITALY",
+        "confirmed": 86498,
+        "deaths": 9134
+    },
+    {
+        "country": "CHINA",
+        "confirmed": 81897,
+        "deaths": 3296
+    },
+    {
+        "country": "SPAIN",
+        "confirmed": 65719,
+        "deaths": 5138
+    },
+    {
+        "country": "GERMANY",
+        "confirmed": 50871,
+        "deaths": 342
+    },
+    {
+        "country": "FRANCE",
+        "confirmed": 33402,
+        "deaths": 1997
+    },
+    {
+        "country": "IRAN",
+        "confirmed": 32332,
+        "deaths": 1997
+    },
+    {
+        "country": "UNITED KINGDOM",
+        "confirmed": 14745,
+        "deaths": 761
+    },
+    {
+        "country": "SWITZERLAND",
+        "confirmed": 12928,
+        "deaths": 231
+    },
+    {
+        "country": "SOUTH KOREAN",
+        "confirmed": 9332,
+        "deaths": 139
+    },
+    {
+        "country": "NETHERLANDS",
+        "confirmed": 8647,
+        "deaths": 547
+    },
+    {
+        "country": "AUSTRIA",
+        "confirmed": 7657,
+        "deaths": 58
+    },
+    {
+        "country": "BELGIUM",
+        "confirmed": 7284,
+        "deaths": 289
+    },
+    {
+        "country": "TURKEY",
+        "confirmed": 5698,
+        "deaths": 92
+    },
+    {
+        "country": "CANADA",
+        "confirmed": 4682,
+        "deaths": 54
+    },
+    {
+        "country": "PORTUGAL",
+        "confirmed": 4268,
+        "deaths": 76
+    },
+    {
+        "country": "NORWAY",
+        "confirmed": 3755,
+        "deaths": 19
+    },
+    {
+        "country": "BRAZIL",
+        "confirmed": 3417,
+        "deaths": 92
+    },
+    {
+        "country": "AUSTRALIA",
+        "confirmed": 3143,
+        "deaths": 13
+    },
+    {
+        "country": "SWEDEN",
+        "confirmed": 3069,
+        "deaths": 105
+    },
+    {
+        "country": "ISRAEL",
+        "confirmed": 3055,
+        "deaths": 12
+    },
+    {
+        "country": "CZECH REPUBLIC",
+        "confirmed": 2279,
+        "deaths": 9
+    },
+    {
+        "country": "DENMARK",
+        "confirmed": 2200,
+        "deaths": 52
+    },
+    {
+        "country": "MALAYSIA",
+        "confirmed": 2161,
+        "deaths": 26
+    },
+    {
+        "country": "IRELAND",
+        "confirmed": 2121,
+        "deaths": 22
+    },
+    {
+        "country": "CHILE",
+        "confirmed": 1610,
+        "deaths": 5
+    },
+    {
+        "country": "LUXEMBORG",
+        "confirmed": 1605,
+        "deaths": 15
+    },
+    {
+        "country": "ECUADOR",
+        "confirmed": 5698,
+        "deaths": 92
+    },
+    {
+        "country": "JAPAN",
+        "confirmed": 1468,
+        "deaths": 49
+    },
+    {
+        "country": "POLAND",
+        "confirmed": 1389,
+        "deaths": 16
+    },
+    {
+        "country": "PAKISTAN",
+        "confirmed": 1373,
+        "deaths": 11
+    },
+    {
+        "country": "ROMANIA",
+        "confirmed": 1292,
+        "deaths": 26
+    },
+    {
+        "country": "SOUTH AFRICA",
+        "confirmed": 1170,
+        "deaths": 1
+    },
+    {
+        "country": "THAILAND",
+        "confirmed": 1136,
+        "deaths": 5
+    },
+    {
+        "country": "SAUDI ARABIA",
+        "confirmed": 1104,
+        "deaths": 3
+    },
+    {
+        "country": "INDONESIA",
+        "confirmed": 1046,
+        "deaths": 87
+    },
+    {
+        "country": "FINLAND",
+        "confirmed": 1041,
+        "deaths": 7
+    },
+    {
+        "country": "RUSSIA",
+        "confirmed": 1036,
+        "deaths": 4
+    },
+    {
+        "country": "GREECE",
+        "confirmed": 966,
+        "deaths": 28
+    },
+    {
+        "country": "INDIA",
+        "confirmed": 918,
+        "deaths": 19
+    },
+    {
+        "country": "ICELAND",
+        "confirmed": 890,
+        "deaths": 2
+    },
+    {
+        "country": "PHILIPPINES",
+        "confirmed": 803,
+        "deaths": 54
+    },
+    {
+        "country": "SINGAPORE",
+        "confirmed": 732,
+        "deaths": 2
+    },
+    {
+        "country": "DIAMOND PRINCESS",
+        "confirmed": 712,
+        "deaths": 10
+    },
+    {
+        "country": "PANAMA",
+        "confirmed": 674,
+        "deaths": 9
+    },
+    {
+        "country": "PERU",
+        "confirmed": 635,
+        "deaths": 11
+    },
+    {
+        "country": "SLOVENIA",
+        "confirmed": 632,
+        "deaths": 9
+    },
+    {
+        "country": "ARGENTINA",
+        "confirmed": 589,
+        "deaths": 13
+    },
+    {
+        "country": "CROATIA",
+        "confirmed": 586,
+        "deaths": 3
+    },
+    {
+        "country": "MEXICO",
+        "confirmed": 585,
+        "deaths": 8
+    },
+    {
+        "country": "DOMINICAN REPUBLIC",
+        "confirmed": 581,
+        "deaths": 20
+    },
+    {
+        "country": "ESTONIA",
+        "confirmed": 575,
+        "deaths": 1
+    },
+    {
+        "country": "QATAR",
+        "confirmed": 562,
+        "deaths": 0
+    },
+    {
+        "country": "COLOMBIA",
+        "confirmed": 539,
+        "deaths": 6
+    },
+    {
+        "country": "EGYPT",
+        "confirmed": 536,
+        "deaths": 30
+    },
+    {
+        "country": "BAHRAIN",
+        "confirmed": 466,
+        "deaths": 4
+    },
+    {
+        "country": "IRAQ",
+        "confirmed": 458,
+        "deaths": 40
+    },
+    {
+        "country": "SERBIA",
+        "confirmed": 457,
+        "deaths": 1
+    },
+    {
+        "country": "ALGERIA",
+        "confirmed": 409,
+        "deaths": 26
+    },
+    {
+        "country": "UNITED ARAB EMIRATES",
+        "confirmed": 405,
+        "deaths": 2
+    },
+    {
+        "country": "LEBANON",
+        "confirmed": 391,
+        "deaths": 8
+    },
+    {
+        "country": "NEW ZEALAND",
+        "confirmed": 368,
+        "deaths": 0
+    },
+    {
+        "country": "LITHUANIA",
+        "confirmed": 358,
+        "deaths": 5
+    },
+    {
+        "country": "MOROCCO",
+        "confirmed": 345,
+        "deaths": 23
+    },
+    {
+        "country": "ARMENIA",
+        "confirmed": 329,
+        "deaths": 1
+    },
+    {
+        "country": "UKRAINE",
+        "confirmed": 310,
+        "deaths": 5
+    },
+    {
+        "country": "HUNGARY",
+        "confirmed": 300,
+        "deaths": 10
+    },
+    {
+        "country": "BULGARIA",
+        "confirmed": 293,
+        "deaths": 3
+    },
+    {
+        "country": "LATVIA",
+        "confirmed": 280,
+        "deaths": 0
+    },
+    {
+        "country": "SLOVAKIA",
+        "confirmed": 269,
+        "deaths": 0
+    },
+    {
+        "country": "ANDORRA",
+        "confirmed": 267,
+        "deaths": 3
+    },
+    {
+        "country": "TAIWAN",
+        "confirmed": 267,
+        "deaths": 2
+    },
+    {
+        "country": "COSTA RICA",
+        "confirmed": 263,
+        "deaths": 2
+    },
+    {
+        "country": "URUGUAY",
+        "confirmed": 238,
+        "deaths": 0
+    },
+    {
+        "country": "BOSNIA AND HERZEGOVINA",
+        "confirmed": 237,
+        "deaths": 4
+    },
+    {
+        "country": "JORDAN",
+        "confirmed": 235,
+        "deaths": 1
+    },
+    {
+        "country": "TUNISIA",
+        "confirmed": 227,
+        "deaths": 6
+    },
+    {
+        "country": "KUWAIT",
+        "confirmed": 225,
+        "deaths": 0
+    },
+    {
+        "country": "SAN MARINO",
+        "confirmed": 223,
+        "deaths": 21
+    },
+    {
+        "country": "NORTH MACEDONIA",
+        "confirmed": 219,
+        "deaths": 3
+    },
+    {
+        "country": "MOLDOVA",
+        "confirmed": 199,
+        "deaths": 2
+    },
+    {
+        "country": "ALBANIA",
+        "confirmed": 186,
+        "deaths": 8
+    },
+    {
+        "country": "BURKINA FASO",
+        "confirmed": 180,
+        "deaths": 9
+    },
+    {
+        "country": "AZERBAIJAN",
+        "confirmed": 165,
+        "deaths": 3
+    },
+    {
+        "country": "VIETNAM",
+        "confirmed": 163,
+        "deaths": 0
+    },
+    {
+        "country": "CYPRUS",
+        "confirmed": 162,
+        "deaths": 5
+    },
+    {
+        "country": "KAZAKHSTAN",
+        "confirmed": 150,
+        "deaths": 1
+    },
+    {
+        "country": "MALTA",
+        "confirmed": 139,
+        "deaths": 0
+    },
+    {
+        "country": "GHANA",
+        "confirmed": 137,
+        "deaths": 4
+    },
+    {
+        "country": "OMAN",
+        "confirmed": 131,
+        "deaths": 0
+    },
+    {
+        "country": "SENEGAL",
+        "confirmed": 119,
+        "deaths": 0
+    },
+    {
+        "country": "BRUNEI",
+        "confirmed": 115,
+        "deaths": 0
+    },
+    {
+        "country": "AFGHANISTAN",
+        "confirmed": 110,
+        "deaths": 4
+    },
+    {
+        "country": "VENEZUELA",
+        "confirmed": 107,
+        "deaths": 1
+    },
+    {
+        "country": "SRI LANKA",
+        "confirmed": 106,
+        "deaths": 0
+    },
+    {
+        "country": "COTE DIVOIRE",
+        "confirmed": 101,
+        "deaths": 0
+    },
+    {
+        "country": "CAMBODIA",
+        "confirmed": 99,
+        "deaths": 0
+    },
+    {
+        "country": "MAURITIUS",
+        "confirmed": 94,
+        "deaths": 2
+    },
+    {
+        "country": "BELARUS",
+        "confirmed": 94,
+        "deaths": 0
+    },
+    {
+        "country": "CAMEROON",
+        "confirmed": 91,
+        "deaths": 2
+    },
+    {
+        "country": "WEST BANK AND GAZA",
+        "confirmed": 91,
+        "deaths": 1
+    },
+    {
+        "country": "UZBEKISTAN",
+        "confirmed": 88,
+        "deaths": 1
+    },
+    {
+        "country": "KOSOVO",
+        "confirmed": 86,
+        "deaths": 1
+    },
+    {
+        "country": "GEORGIA",
+        "confirmed": 83,
+        "deaths": 0
+    },
+    {
+        "country": "MONTENEGRO",
+        "confirmed": 82,
+        "deaths": 1
+    },
+    {
+        "country": "CUBA",
+        "confirmed": 80,
+        "deaths": 2
+    },
+    {
+        "country": "NIGERIA",
+        "confirmed": 70,
+        "deaths": 1
+    },
+    {
+        "country": "HONDUAS",
+        "confirmed": 68,
+        "deaths": 1
+    },
+    {
+        "country": "TRINIDAD AND TOBAGO",
+        "confirmed": 66,
+        "deaths": 2
+    },
+    {
+        "country": "BOLIVIA",
+        "confirmed": 61,
+        "deaths": 0
+    },
+    {
+        "country": "KYRGYZSTAN",
+        "confirmed": 58,
+        "deaths": 0
+    },
+    {
+        "country": "lIECHTENSTEIN",
+        "confirmed": 56,
+        "deaths": 0
+    },
+    {
+        "country": "RWANDA",
+        "confirmed": 54,
+        "deaths": 0
+    },
+    {
+        "country": "PARAGUAY",
+        "confirmed": 52,
+        "deaths": 3
+    },
+    {
+        "country": "CONGO",
+        "confirmed": 51,
+        "deaths": 3
+    },
+    {
+        "country": "BANGLADESH",
+        "confirmed": 48,
+        "deaths": 5
+    },
+    {
+        "country": "MONACO",
+        "confirmed": 42,
+        "deaths": 0
+    },
+    {
+        "country": "KENYA",
+        "confirmed": 31,
+        "deaths": 1
+    },
+    {
+        "country": "GUATEMALA",
+        "confirmed": 28,
+        "deaths": 1
+    },
+    {
+        "country": "JAMAICA",
+        "confirmed": 26,
+        "deaths": 1
+    },
+    {
+        "country": "MADAGASCAR",
+        "confirmed": 26,
+        "deaths": 0
+    },
+    {
+        "country": "TOGO",
+        "confirmed": 25,
+        "deaths": 1
+    },
+    {
+        "country": "BARBADOS",
+        "confirmed": 24,
+        "deaths": 0
+    },
+    {
+        "country": "UGANDA",
+        "confirmed": 23,
+        "deaths": 0
+    },
+    {
+        "country": "ZAMBIA",
+        "confirmed": 22,
+        "deaths": 0
+    },
+    {
+        "country": "ETHIOPIA",
+        "confirmed": 16,
+        "deaths": 0
+    },
+    {
+        "country": "MALDIVES",
+        "confirmed": 16,
+        "deaths": 0
+    },
+    {
+        "country": "TANZANIA",
+        "confirmed": 13,
+        "deaths": 0
+    },
+    {
+        "country": "EL SALVADOR",
+        "confirmed": 13,
+        "deaths": 0
+    },
+    {
+        "country": "DJIBOUTI",
+        "confirmed": 12,
+        "deaths": 0
+    },
+    {
+        "country": "EQUATORIAL GUINEA",
+        "confirmed": 12,
+        "deaths": 0
+    },
+    {
+        "country": "MONGOLIA",
+        "confirmed": 11,
+        "deaths": 0
+    },
+    {
+        "country": "DOMINICA",
+        "confirmed": 11,
+        "deaths": 0
+    },
+    {
+        "country": "MALI",
+        "confirmed": 11,
+        "deaths": 0
+    },
+    {
+        "country": "BAHAMAS",
+        "confirmed": 10,
+        "deaths": 0
+    },
+    {
+        "country": "NIGER",
+        "confirmed": 10,
+        "deaths": 1
+    },
+    {
+        "country": "ESWATINI",
+        "confirmed": 9,
+        "deaths": 0
+    },
+    {
+        "country": "SURINAME",
+        "confirmed": 8,
+        "deaths": 0
+    },
+    {
+        "country": "HAITI",
+        "confirmed": 8,
+        "deaths": 0
+    },
+    {
+        "country": "NAMIBIA",
+        "confirmed": 8,
+        "deaths": 0
+    },
+    {
+        "country": "GUINEA",
+        "confirmed": 8,
+        "deaths": 0
+    },
+    {
+        "country": "BURMA",
+        "confirmed": 8,
+        "deaths": 0
+    },
+    {
+        "country": "GABON",
+        "confirmed": 7,
+        "deaths": 1
+    },
+    {
+        "country": "SEYCHELLES",
+        "confirmed": 7,
+        "deaths": 0
+    },
+    {
+        "country": "ANTIGUA AND BARBUDA",
+        "confirmed": 7,
+        "deaths": 0
+    },
+    {
+        "country": "GRENADA",
+        "confirmed": 7,
+        "deaths": 0
+    },
+    {
+        "country": "MOZAMBIQUE",
+        "confirmed": 7,
+        "deaths": 0
+    },
+    {
+        "country": "ERITREA",
+        "confirmed": 6,
+        "deaths": 0
+    },
+    {
+        "country": "LAOS",
+        "confirmed": 6,
+        "deaths": 0
+    },
+    {
+        "country": "BENIN",
+        "confirmed": 6,
+        "deaths": 0
+    },
+    {
+        "country": "FIJI",
+        "confirmed": 5,
+        "deaths": 0
+    },
+    {
+        "country": "GUYANA",
+        "confirmed": 5,
+        "deaths": 1
+    },
+    {
+        "country": "CABO VERDE",
+        "confirmed": 5,
+        "deaths": 1
+    },
+    {
+        "country": "SYRIA",
+        "confirmed": 5,
+        "deaths": 0
+    },
+    {
+        "country": "ZIMBABWE",
+        "confirmed": 5,
+        "deaths": 1
+    },
+    {
+        "country": "CONGO (BRAZZAVILLE)",
+        "confirmed": 4,
+        "deaths": 0
+    },
+    {
+        "country": "VATICAN CITY",
+        "confirmed": 4,
+        "deaths": 0
+    },
+    {
+        "country": "ANGOLA",
+        "confirmed": 4,
+        "deaths": 0
+    },
+    {
+        "country": "NEPAL",
+        "confirmed": 4,
+        "deaths": 0
+    },
+    {
+        "country": "LIBERIA",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "BHUTAN",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "SUDAN",
+        "confirmed": 3,
+        "deaths": 1
+    },
+    {
+        "country": "CENTRAL AFRICAN REPUBLIC",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "SOMALIA",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "CHAD",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "SAINT LUCIA",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "GAMBIA",
+        "confirmed": 3,
+        "deaths": 1
+    },
+    {
+        "country": "MAURITANIA",
+        "confirmed": 3,
+        "deaths": 0
+    },
+    {
+        "country": "BELIZE",
+        "confirmed": 2,
+        "deaths": 0
+    },
+    {
+        "country": "NICARAGUA",
+        "confirmed": 2,
+        "deaths": 1
+    },
+    {
+        "country": "GUINEA-BISSAU",
+        "confirmed": 2,
+        "deaths": 0
+    },
+    {
+        "country": "SAINT KITTS AND NEVIS",
+        "confirmed": 2,
+        "deaths": 0
+    },
+    {
+        "country": "TIMOR-LESTE",
+        "confirmed": 1,
+        "deaths": 0
+    },
+    {
+        "country": "SAINT VINCENT AND THE GRENADINES",
+        "confirmed": 1,
+        "deaths": 0
+    },
+    {
+        "country": "LIBYA",
+        "confirmed": 1,
+        "deaths": 0
+    },
+    {
+        "country": "PAPUA NEW GUINEA",
+        "confirmed": 1,
+        "deaths": 0
+    }
+]
