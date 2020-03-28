@@ -1,7 +1,7 @@
 [
     {
         "country": "India",
-        "confirmed": 918,
+        "confirmed": 920,
         "recovered": 80,
         "deaths": 19,
         "cities": [
