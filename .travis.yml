@@ -6,6 +6,8 @@ script:
  - echo "Deploy!!"
 install:
   - npm install -g firebase-tools
+  - npm install -g nuxt
+  - npm install
   - npm run generate
 after_success:
   - firebase deploy --project covid-f23a6 --token 1//0giC9nRQJLjkwCgYIARAAGBASNwF-L9IrpnOJT2ktjKkGf-HCX4VNGz4vbOC9NZA1sjzDvmtjQOfCyFIa5hJCff9i6jbELJM4nhY
