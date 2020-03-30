@@ -17,7 +17,9 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr v-for="(country, i) in countries" :key="`_cs${i}`">
+                                    <tr v-for="(country, i) in countries" :key="`_cs${i}`" :class="{
+                                        'table-info': country.country === 'India'
+                                    }">
                                         <td class="text-left">{{i+1}}</td>
                                         <td class="text-left">
                                             <a
@@ -26,13 +28,13 @@
                                             >{{country.country}}</a>
                                             <span v-else>{{country.country}}</span>
                                         </td>
-                                        <td class="text-right">{{country.confirmed}}</td>
+                                        <td class="text-right">{{country.confirmed.toLocaleString('en-IN', { maximumSignificantDigits: 3 })}}</td>
                                         <td
                                             class="text-right"
-                                        >{{country.recovered ? country.recovered: 'N/A' }}</td>
+                                        >{{country.recovered ? country.recovered.toLocaleString('en-IN', { maximumSignificantDigits: 3 }): 'N/A' }}</td>
                                         <td
                                             class="text-right"
-                                        >{{country.deaths? country.deaths : 'N/A'}}</td>
+                                        >{{country.deaths? country.deaths.toLocaleString('en-IN', { maximumSignificantDigits: 3 }) : 'N/A'}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -41,7 +43,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <!-- <section>
             <div
                 class="container"
                 v-for="(country, ci) in countries.filter(c => c.cities && c.cities.length)"
@@ -65,7 +67,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr v-for="(city, i) in country.cities" :key="`_cs${i}`">
+                                    <tr v-for="(city, i) in country.cities" :key="`_cs${i}`" >
                                         <td class="text-left">{{i+1}}</td>
                                         <td class="text-left">{{city.name}}</td>
                                         <td class="text-right">{{city.confirmed}}</td>
@@ -77,7 +79,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </template>
 

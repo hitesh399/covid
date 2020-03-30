@@ -26,13 +26,15 @@
                                         >{{country.country}}</a>
                                         <span v-else>{{country.country}}</span>
                                     </td>
-                                    <td class="text-right">{{country.confirmed}}</td>
+                                    <td class="text-right">{{country.confirmed.toLocaleString('en-IN', { maximumSignificantDigits: 3 })}}</td>
                                     <td
                                         class="text-right"
-                                    >{{country.recovered ? country.recovered: 'N/A' }}</td>
+                                    >
+                                    {{country.recovered ? country.recovered.toLocaleString('en-IN', { maximumSignificantDigits: 3 }): 'N/A' }}
+                                    </td>
                                     <td
                                         class="text-right"
-                                    >{{country.deaths? country.deaths : 'N/A'}}</td>
+                                    >{{country.deaths? country.deaths.toLocaleString('en-IN', { maximumSignificantDigits: 3 }) : 'N/A'}}</td>
                                     <!-- <td>{{country.test_performed}}</td> -->
                                 </tr>
                             </tbody>
@@ -76,12 +78,39 @@ export default {
             return name.toString().replace(/ /g, '');
         },
         loadData() {
+            // axios
+            //     .get('/covid19.json', {
+            //         headers: { 'Cache-Control': 'no-cache' }
+            //     })
+            //     .then(res => {
+            //         this.$store.commit('updateCountries', { data: res.data });
+            //     });
+
             axios
-                .get('/covid19.json', {
-                    headers: { 'Cache-Control': 'no-cache' }
+                .post('https://covid19-graphql.now.sh', {
+                    query:
+                        '{countries {name mostRecent { date(format: "dd/MMM/YYY") confirmed deaths recovered growthRate }}}'
                 })
-                .then(res => {
-                    this.$store.commit('updateCountries', { data: res.data });
+                .then(response => {
+                    let countries = response.data.data.countries
+                        .sort((a, b) => {
+                            return a.mostRecent.confirmed >
+                                b.mostRecent.confirmed
+                                ? -1
+                                : 1;
+                        })
+                        .map(v => {
+                            return {
+                                country: v.name,
+                                confirmed: v.mostRecent.confirmed,
+                                deaths: v.mostRecent.deaths,
+                                recovered: v.mostRecent.recovered,
+                                growthRate: v.mostRecent.growthRate
+                            };
+                        });
+                    this.$store.commit('updateCountries', { data: countries });
+                    // console.log('TEs', countries);
+                    // console.log('Country', response.data.data.countries);
                 });
         }
     }
